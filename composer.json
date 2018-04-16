@@ -1,0 +1,31 @@
+{
+    "name": "tharindu93/cache-engine",
+    "type": "project",
+    "license": "MIT",
+    "description": "Cache driver package for PHP projects",
+    "authors": [
+        {
+            "name": "Tharindu Wickramasinghe",
+            "email": "tharinduw@eight25media.com",
+            "homepage": "https://github.com/tharindu93/cache_package"
+        }
+    ],
+    "keywords": [
+        "php","cache"
+    ],
+    "support": {
+        "issues": "https://github.com/tharindu93/cache_package/issues"
+    },
+    "config": {
+        "preferred-install": "dist"
+    },
+    "require": {
+        "php": ">=5.6",
+        "cache/cache": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "CacheEngine\\": "src/"
+        }
+    }
+}
