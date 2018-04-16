@@ -16,9 +16,6 @@
     "support": {
         "issues": "https://github.com/tharindu93/cache_package/issues"
     },
-    "config": {
-        "preferred-install": "dist"
-    },
     "require": {
         "php": ">=5.6",
         "cache/cache": "^1.0"
